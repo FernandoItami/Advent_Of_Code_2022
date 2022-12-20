@@ -1,10 +1,8 @@
-let x = -19 - (-20)
+let x = 60
 
 function Test () {
-    for (let index = 0; index < 8; index++) {
-        x -= 1
-    }
-    console.log(x)
+    
+    console.log(x % 40 === 0)
 }
 
 Test()
